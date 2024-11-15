@@ -1,0 +1,18 @@
+[project]
+name = "nn-tools"
+version = "0.1.0"
+description = "NN Tools"
+authors = [
+    { name = "Ettore Ricci" },
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "torch",
+    "torchvision",
+    "matplotlib",
+    "pandas",
+    "tqdm"
+]
+
+[tool.setuptools]
+package-dir = { "nn_tools" = "nn_tools" }
